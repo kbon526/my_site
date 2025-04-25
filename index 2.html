@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kbon 的项目案例合集</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kbon 的项目案例展示</h1>
+    <p>真实案例 · 可视化 · 下载可用</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <h2>比亚迪海外社媒舆情监测</h2>
+      <p>使用AI工具自动追踪全球 200+ 品牌账号，生成可视化月报，并识别热点话题趋势。</p>
+      <a href="https://gist.githubusercontent.com/yourid/byd-report.json" target="_blank">下载报告</a>
+    </div>
+
+    <div class="card">
+      <h2>竞品雷达图对比 Agent</h2>
+      <p>输入竞品关键词，自动生成雷达图。支持图表样式定制，适配PPT投放。</p>
+      <a href="https://quickchart.io/chart?c=..." target="_blank">预览图表</a>
+    </div>
+
+    <div class="card">
+      <h2>Smart 全球内容策略提案</h2>
+      <p>为 Smart 小红书账号设计国际化内容结构，主打“视野先行，审美破局”。</p>
+      <a href="https://yourdomain.com/smart_pitch.pdf" target="_blank">下载PPT</a>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2025 Kbon ｜ AI × 可视化 × 策略创造力
+  </footer>
+</body>
+</html>
